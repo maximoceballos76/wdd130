@@ -17,11 +17,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -48,6 +43,10 @@ article {
     padding: 8px;
 }
 
+nav a {
+    color: var(--accent2-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -62,7 +61,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -71,15 +70,29 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
-    /* white text - make sure there is enough contrast with the background-color */
 }
 
-article {
+.hero article {
     position: absolute;
-    font: var(--body-font);
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 16px;
+    background-color: var(--secondary-color);
+    opacity: 0.9;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 16px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
 }
