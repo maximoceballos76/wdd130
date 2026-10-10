@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Máximo Ceballos">
+    <meta name="description"
+      content="Contact Whitewater Rafting: find our address, phone numbers and email, meet our guides, or send us a question about our trips and reservations">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us Whitewater Rafting</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="logo" width="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <div>
+                <h2>Company Information</h2>
+                <address>
+                    Whitewater Rafting<br>
+                    123 River Road<br>
+                    Jackson, WY 83001
+                </address>
+                <p>Phone: <a href="tel:+13075550123">(307) 555-0123</a></p>
+                <p>Toll-free: <a href="tel:+18005550123">(800) 555-0123</a></p>
+                <p>Email: <a
+                      href="mailto:info@whitewaterrafting.example">info@whitewaterrafting.example</a>
+                </p>
+            </div>
+
+            <iframe title="Map showing the location of Whitewater Rafting"
+              src="https://maps.google.com/maps?q=Jackson+Hole+Wyoming&amp;output=embed" width="400"
+              height="300" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="staff">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/guide-1.jpg" alt="Portrait of Sarah Miller, our owner" width="150"
+                  height="150">
+                <figcaption>Sarah Miller<br>Owner and Head Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guide-2.jpg" alt="Portrait of Daniel Torres, our lead guide"
+                  width="150" height="150">
+                <figcaption>Daniel Torres<br>Lead River Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guide-3.jpg" alt="Portrait of Emily Chen, our reservations manager"
+                  width="150" height="150">
+                <figcaption>Emily Chen<br>Reservations Manager</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-field">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" required autocomplete="name">
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Your email address</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+
+                <fieldset>
+                    <legend>Purpose of your message</legend>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="general" checked>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Whitewater Rafting - Máximo Ceballos </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon" width="100">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon" width="100">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon" width="100">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
